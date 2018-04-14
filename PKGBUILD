@@ -5,7 +5,7 @@
 # Contributor: Matthias Sobczyk <matthias.sobczyk@googlemail.com>
 # Contributor: Kamil Kaminski <kyle@kkaminsk.com>
 
-pkgname=minidlna
+pkgname=thebox-minidlna
 pkgver=1.2.1
 pkgrel=2
 pkgdesc="A DLNA/UPnP-AV Media server (aka ReadyDLNA)"
@@ -14,6 +14,8 @@ url="http://sourceforge.net/projects/minidlna/"
 license=('GPL')
 depends=('libexif' 'libjpeg' 'libid3tag' 'flac' 'libvorbis' 'ffmpeg' 'sqlite')
 makedepends=('git')
+provides=('minidlna')
+conflicts=('minidlna' 'minidlna-custom-icon' 'readymedia-transcode-git')
 backup=('etc/minidlna.conf')
 changelog=changelog
 source=("minidlna::git://git.code.sf.net/p/minidlna/git#tag=v${pkgver//./_}"
