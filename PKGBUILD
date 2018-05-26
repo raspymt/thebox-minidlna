@@ -8,9 +8,9 @@
 _pkgname=minidlna
 pkgname=thebox-minidlna
 pkgver=1.2.1
-pkgrel=2
+pkgrel=3
 pkgdesc="A DLNA/UPnP-AV Media server (aka ReadyDLNA) with The Box icons"
-arch=('i686' 'x86_64' 'armv7h')
+arch=('x86_64' 'armv7h')
 url="http://sourceforge.net/projects/minidlna/"
 license=('GPL')
 depends=('libexif' 'libjpeg' 'libid3tag' 'flac' 'libvorbis' 'ffmpeg' 'sqlite')
