@@ -1,4 +1,3 @@
-# $Id$
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 # Maintainer:Biginoz < biginoz AT free point fr>
 # Contributor: Ignacio Galmarino <igalmarino@gmail.com>
@@ -8,7 +7,7 @@
 _pkgname=minidlna
 pkgname=thebox-minidlna
 pkgver=1.2.1
-pkgrel=3
+pkgrel=4
 pkgdesc="A DLNA/UPnP-AV Media server (aka ReadyDLNA) with The Box icons"
 arch=('x86_64' 'armv7h')
 url="http://sourceforge.net/projects/minidlna/"
